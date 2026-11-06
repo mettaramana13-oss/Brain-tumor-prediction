@@ -4,7 +4,7 @@ import joblib
 import os
 
 # Load saved model
-model = joblib.load("Brain tumor.pkl")
+model = joblib.load("Brain Tumor.pkl")
 
 # Get feature names from trained model
 feature_names = list(model.feature_names_in_)
